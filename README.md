@@ -1,5 +1,6 @@
-### light-dark-mode
- Switch between light and dark mode
+### Light Dark Mode
+-----
+Switch between light and dark mode
 
-### Access demo through the following link:
-* https://climbing-spot-app.herokuapp.com
+Access the demo through the following link:
+* https://jkagawa.github.io/light-dark-mode/
