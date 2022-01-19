@@ -13,8 +13,8 @@ function imageMode(color) {
 }
 
 function toggleLightDarkMode(isLight) {
-  nav.style.backgroundColor = isLight ? 'rgb(255 255 255 / 50%)' : 'rgb(0 0 0 / 50%)';
-  textBox.style.backgroundColor = isLight ? 'rgb(0 0 0 / 50%)' : 'rgb(255 255 255 / 50%)';
+  nav.style.backgroundColor = isLight ? 'rgb(255 255 255 / 80%)' : 'rgb(0 0 0 / 80%)';
+  textBox.style.backgroundColor = isLight ? 'rgb(0 0 0 / 70%)' : 'rgb(255 255 255 / 70%)';
   toggleIcon.children[0].textContent = isLight ? 'Light Mode' : 'Dark Mode';
   isLight ? toggleIcon.children[1].classList.replace('fa-moon','fa-sun') : toggleIcon.children[1].classList.replace('fa-sun','fa-moon');
   isLight ? imageMode('light') : imageMode('dark');

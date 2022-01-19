@@ -62,7 +62,7 @@ nav {
   letter-spacing: 3px;
   padding: 25px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  background: rgb(255 255 255 / 80%);
 }
 
 a {
@@ -159,7 +159,7 @@ button:hover:not(.outline) {
 .text-box {
   width: 40%;
   text-align: justify;
-  background: rgb(0 0 0 / 50%);
+  background: rgb(0 0 0 / 70%);
   color: var(--on-primary);
   border-radius: 10px;
   padding: 30px;
